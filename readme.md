@@ -1,6 +1,8 @@
 # Praktikum 1
 Naufal Adli Purnama
+
 5025201195
+
 Probabilitas dan Statistika A
 
 ## [Daftar Isi](#praktikum-1)
