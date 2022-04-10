@@ -18,6 +18,20 @@ seseorang yang menghadiri acara vaksinasi sebelumnya.
 + `e.` Nilai Rataan (μ) dan Varian (σ²) dari Distribusi Geometrik.
 
 ## Penyelesaian
+Soal tersebut diselesaikan dengan menggunakan rumus-rumus Distribusi Geometri, yaitu rumus:
+    
+  + Probability Density Function
+
+    ![PDF](https://latex.codecogs.com/svg.image?\bg{white}(1-p)^{n-1}(p))
+
+  + Mean
+    
+    ![Mean](https://latex.codecogs.com/svg.image?\bg{white}\frac{1}{p})
+
+  + Variance
+
+    ![Variance](https://latex.codecogs.com/svg.image?\bg{white}\frac{1-p}{p^{2}})
+
 ### Source Code
 
 ```R
@@ -87,6 +101,20 @@ Terdapat 20 pasien menderita Covid19 dengan peluang sembuh sebesar 0.2. Tentukan
 + `c.` Nilai Rataan (μ) dan Varian (σ²) dari Distribusi Binomial.
   
 ## Penyelesaian
+Soal tersebut diselesaikan dengan menggunakan rumus-rumus Distribusi Binomial, yaitu rumus:
+    
+  + Probability Density Function
+
+    ![PDF](https://latex.codecogs.com/svg.image?\bg{white}\binom{n}{x}(p)^{x}(1-p)^{n-x})
+
+  + Mean
+    
+    ![Mean](https://latex.codecogs.com/svg.image?\bg{white}np)
+
+  + Variance
+
+    ![Variance](https://latex.codecogs.com/svg.image?\bg{white}npq)
+
 ### Source Code
 ```R
 #2.a <- peluang 20 pasien, 4 sembuh
@@ -146,6 +174,20 @@ Diketahui data dari sebuah tempat bersalin di rumah sakit tertentu menunjukkan r
 + `d.` Nilai Rataan (μ) dan Varian (σ²) dari Distribusi Poisson.
 
 ## Penyelesaian
+Soal tersebut diselesaikan dengan menggunakan rumus-rumus Distribusi Geometri, yaitu rumus:
+    
+  + Probability Density Function
+
+    ![PDF](https://latex.codecogs.com/svg.image?\bg{white}\frac{e^{-\lambda}&space;\times&space;\lambda^{x}}{x!})
+
+  + Mean
+    
+    ![Mean](https://latex.codecogs.com/svg.image?\bg{white}\lambda)
+
+  + Variance
+
+    ![Variance](https://latex.codecogs.com/svg.image?\bg{white}\lambda)
+
 ### Source Code
 ```R
 #3.a
@@ -205,6 +247,20 @@ Diketahui nilai `x = 2` dan `v = 10`. Tentukan:
 + `c.` Nilai Rataan (μ) dan Varian (σ²) dari DistribusiChi-Square.
 
 ## Penyelesaian
+Soal tersebut diselesaikan dengan menggunakan rumus-rumus Distribusi Chi-Square, yaitu rumus:
+    
+  + Probability Density Function
+
+    ![PDF](https://latex.codecogs.com/svg.image?\bg{white}\frac{x^{v/2-1}e^{-x/2}}{2^{v/2}\Gamma(v/2)})
+
+  + Mean
+    
+    ![Mean](https://latex.codecogs.com/svg.image?\bg{white}v)
+
+  + Variance
+
+    ![Variance](https://latex.codecogs.com/svg.image?\bg{white}2v)
+
 ### Source Code
 ```R
 #4.a
@@ -252,6 +308,20 @@ Petunjuk:
   + Gunakan fungsi bawaan R
 
 ## Penyelesaian
+Soal tersebut diselesaikan dengan menggunakan rumus-rumus Distribusi Eksponensial, yaitu rumus:
+    
+  + Probability Density Function
+
+    ![PDF](https://latex.codecogs.com/svg.image?\bg{white}\lambda&space;e^{-\lambda&space;x})
+
+  + Mean
+    
+    ![Mean](https://latex.codecogs.com/svg.image?\bg{white}\frac{1}{\lambda})
+
+  + Variance
+
+    ![Variance](https://latex.codecogs.com/svg.image?\bg{white}\frac{1}{\lambda^2})
+
 ### Source Code
 ```R
 #5.a
@@ -323,6 +393,16 @@ Contoh :
 + `c.` Nilai Varian (σ²) dari hasil generate random nilai Distribusi Normal
 
 ## Penyelesaian
+Soal tersebut diselesaikan dengan menggunakan rumus-rumus Distribusi Normal, yaitu rumus:
+    
+  + Z-Score
+
+    ![Z-Score](https://latex.codecogs.com/svg.image?\bg{white}\frac{x-E[x]}{\sigma})
+
+  + Variance
+
+    ![Variance](https://latex.codecogs.com/svg.image?\bg{white}\sigma^2)
+
 ### Source Code
 ```R
 #6.a
